@@ -16,9 +16,9 @@ wss.on('connection', function (ws){
       
       
     } 
-    setInterval(() => {
-      ws.send("stock price is :"+ Math.random()*0.5);
-    }, 500);
+    // setInterval(() => {
+    //   ws.send("stock price is :"+ Math.random()*0.5);
+    // }, 500);
   
 
 });
